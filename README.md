@@ -1,23 +1,10 @@
 Nmap Practical Exercises
 This repository contains practical exercises I completed using Nmap, a powerful network scanning tool. The exercises demonstrate various Nmap features and their applications in network security.
 
-Table of Contents
-  * Introduction
-  * Exercises
-  * Scan Network Range
-  * Scan IP List
-  * Scan Single IP
-  * Host and Port Scanning
-  * Trace the Packets
-  * Version Scan
-  * Saving Scan Results
-  * Screenshots
-  * Conclusion
+Introduction:
+In this lab practical, I explored the functionalities of Nmap by conducting various network scans. These exercises helped me understand how to discover live hosts, identify open ports, trace packet routes, and more.
 
-Introduction
-In this practical, I explored the functionalities of Nmap by conducting various network scans. These exercises helped me understand how to discover live hosts, identify open ports, trace packet routes, and more.
-
-Exercises
+Exercises:
 1. Scan Network Range: Scanned an entire network range to identify all active devices on the network.
 
 sudo nmap 192.168.1.0/24 -sn -oA tnet | grep for | cut -d" " -f5
